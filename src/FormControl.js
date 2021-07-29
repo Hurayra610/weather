@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Weather from "./Weather";
 import "./FormControl.css";
 
-function FormControl({}) {
+function FormControl() {
   const [cityName, setCityName] = useState();
   const [countryName, setCountryName] = useState();
   const [city, setCity] = useState();

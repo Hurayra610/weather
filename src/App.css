@@ -12,3 +12,7 @@
   font-size: 50px;
   font-family: "Century Gothic";
 }
+.authorInfo {
+  font-weight: bold;
+  color: white;
+}
