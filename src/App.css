@@ -1,0 +1,14 @@
+.App {
+  background-image: url("https://www.wallpaperflare.com/static/1010/516/986/snow-trees-road-traces-wallpaper.jpg");
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.App > h1 {
+  font-size: 50px;
+  font-family: "Century Gothic";
+}

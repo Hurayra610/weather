@@ -1,0 +1,84 @@
+.container {
+  background: rgb(111, 150, 187);
+  background: linear-gradient(
+    212deg,
+    rgb(193, 216, 238) 0%,
+    rgb(96, 139, 170) 99%
+  );
+  min-width: 70%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0px 5px 6px 9px rgb(89, 141, 179);
+  position: relative;
+}
+.container:hover {
+  animation-name: containerAnnimation;
+  animation-duration: 500ms;
+}
+
+@keyframes containerAnnimation {
+  0% {
+    left: -15px;
+  }
+  25% {
+    right: 15px;
+  }
+  50% {
+    left: 10px;
+  }
+  75% {
+    right: 10px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.searchBar {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inputCity {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-right: 8px;
+  flex: 1;
+  font-family: "century gothic";
+  font-size: medium;
+}
+.inputCountry {
+  padding: 10px;
+  flex: 1;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-right: 8px;
+  font-family: "century gothic";
+  font-size: medium;
+}
+.btn {
+  background: rgb(42, 144, 221);
+  background: linear-gradient(
+    135deg,
+    rgba(42, 144, 221, 1) 0%,
+    rgba(17, 49, 70, 1) 99%
+  );
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+.btn:hover {
+  box-shadow: 1px 1px 6px 3px #ffffff;
+  cursor: pointer;
+}
